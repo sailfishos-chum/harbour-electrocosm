@@ -12,6 +12,6 @@ CoverBackground {
     sourceSize.height: height
 
     opacity: 0.4
-    source: "../../img/electrocosm.svg"
+    source: "../img/electrocosm.svg"
   }
 }

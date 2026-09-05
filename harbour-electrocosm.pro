@@ -17,9 +17,9 @@ CONFIG += sailfishapp_qml
 DISTFILES += qml/harbour-electrocosm.qml \
     qml/pages/*.qml \
     qml/cover/CoverPage.qml \
-    img/*.svg \
-    img/connectors/*.svg \
-    src/*.py \
+    qml/img/*.svg \
+    qml/img/connectors/*.svg \
+    qml/src/*.py \
     rpm/harbour-electrocosm.changes.in \
     rpm/harbour-electrocosm.changes.run.in \
     rpm/harbour-electrocosm.spec \

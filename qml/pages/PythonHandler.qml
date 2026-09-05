@@ -7,7 +7,7 @@ Python {
   Component.onCompleted: {
     setHandler('error', error_handler);
 
-    addImportPath(Qt.resolvedUrl('../../src'));
+    addImportPath(Qt.resolvedUrl('../src'));
 
     importModule('api', function () {
       console.log('PythonHandler - api module ready');

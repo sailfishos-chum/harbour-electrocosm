@@ -9,6 +9,6 @@ Exec=sailjail -p harbour-electrocosm.desktop /usr/bin/sailfish-qml harbour-elect
 X-Desktop-File-Install-Version=0.28
 
 [X-Sailjail]
-Permissions=Internet;Location
+Permissions=Internet;Location;UserDirs
 OrganizationName=app.qml
 ApplicationName=electrocosm

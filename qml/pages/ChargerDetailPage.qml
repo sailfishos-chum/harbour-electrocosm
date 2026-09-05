@@ -346,6 +346,6 @@ Page {
       "NACS": "nacs"
     }
     var name = icons[standard_code]
-    return name ? Qt.resolvedUrl("../../img/connectors/plug_" + name + ".svg") : ""
+    return name ? Qt.resolvedUrl("../img/connectors/plug_" + name + ".svg") : ""
   }
 }
