@@ -43,3 +43,7 @@ desktop-file-install --delete-original         --dir %{buildroot}%{_datadir}/app
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
+
+%post
+
+sed -i 's/CLIENT/pk.eyJ1IjoiYW5hcmNoeS1pbi10aGUtdWsiLCJhIjoiY2twbnRxdGVpMGYxZDJwcDRseHoyMTd5bCJ9.df75IhuH1tbEVAWOOJfCrA/' %{_datadir}/%{name}/qml/pages/MainPage.qml

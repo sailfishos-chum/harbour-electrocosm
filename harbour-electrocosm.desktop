@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+X-Nemo-Application-Type=generic
+Name=Electrocosm
+Icon=harbour-electrocosm
+Exec=sailjail -p harbour-electrocosm.desktop /usr/bin/sailfish-qml harbour-electrocosm
+X-Desktop-File-Install-Version=0.28
+
+[X-Sailjail]
+Permissions=Internet;Location
+OrganizationName=app.qml
+ApplicationName=electrocosm
