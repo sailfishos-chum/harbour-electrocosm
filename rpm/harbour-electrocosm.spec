@@ -46,4 +46,5 @@ desktop-file-install --delete-original         --dir %{buildroot}%{_datadir}/app
 
 %post
 
-sed -i 's/CLIENT/pk.eyJ1IjoiYW5hcmNoeS1pbi10aGUtdWsiLCJhIjoiY2twbnRxdGVpMGYxZDJwcDRseHoyMTd5bCJ9.df75IhuH1tbEVAWOOJfCrA/' %{_datadir}/%{name}/qml/pages/MainPage.qml
+sed -i 's/CLIENT/pk.eyJ1IjoiYW5hcmNoe/' %{_datadir}/%{name}/qml/pages/MainPage.qml
+sed -i 's/ID/S1pbi10aGUtdWsiLCJhIjoiY2twbnRxdGVpMGYxZDJwcDRseHoyMTd5bCJ9.df75IhuH1tbEVAWOOJfCrA/' %{_datadir}/%{name}/qml/pages/MainPage.qml

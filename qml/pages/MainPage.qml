@@ -10,7 +10,7 @@ Page {
   property real pos_longitude: -0.1278
   property real pos_accuracy: 9999
 
-  property string mapbox_key: "CLIENT"
+  property string mapbox_key: "CLIENT" + "ID"
 
   property var viewport_tl: null
   property var viewport_br: null
